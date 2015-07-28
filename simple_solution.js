@@ -92,7 +92,7 @@ var server = net.createServer(function(connection) {
         break;
       
       default:
-        connection.write("\n\n            'scuse me?            \n\n:) please enter one of the following:\n  leave YOUR MESSAGE HERE\n  list\n  delete ID_NUMBER_HERE\n  clear PASSWORD\n*-------------------------*\n\n");
+        connection.write("\n--\n            'scuse me?            \n--\n:) please enter one of the following:\n  leave YOUR MESSAGE HERE\n  list\n  delete ID_NUMBER_HERE\n  clear PASSWORD\n*-------------------------*\n\n");
     }
   
   });
